@@ -105,3 +105,44 @@ body{
 .cursiva{
   font-style: italic;
 }
+.footer{
+  width: 45%;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  padding: 0 18%;
+}
+.footLeft{
+  display: inline-block;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.share{
+  color: green;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.comment{
+  font-size: 25px;
+  color: rgba(0,0,0,.44);
+}
+.footRight{
+  width: 20%;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.tw{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+.face{
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px black, 1px 1px black, 0 2px black;
+  margin: 0 15px;
+}
+.favorite{
+  font-size: 25px;
+}

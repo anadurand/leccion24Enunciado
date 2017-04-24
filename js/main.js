@@ -9,7 +9,7 @@ window.addEventListener("load", function(){
   var spanLogoL = crear("span", "home icon-home3");
   var imgL = crear("div", "foto");
   var spanTw = crear("span", "enlace icon-twitter");
-  var spanFc = crear("span", "enlace face icon-facebook-with-circle");
+  var spanFc = crear("span", "enlace icon-facebook-with-circle");
   var divRight = crear("div", "header-right");
   var spanLogo = crear("img", "logo");
   var img = crear("img", "foto-autor");
@@ -37,12 +37,12 @@ window.addEventListener("load", function(){
   s2Cont.textContent = "Tengo muchas preguntas y pocas respuestas!!";
   var footer = crear("footer", "footer");
   var divBottonLeft = crear("div", "footLeft");
-  var spanShare =crear("span","share");
-  var spanComment = crear("span", "comment");
-  var divBottonRight = crear("div", "footLeft");
-  var spanFavorite =crear("span","favorite");
-  var spanFace =crear("span","face");
-  var spanTiw =crear("span","tw");
+  var spanShare =crear("span","share icon-heart");
+  var spanComment = crear("span", "comment icon-bubble2");
+  var divBottonRight = crear("div", "footRight");
+  var spanFavorite =crear("span","favorite tw icon-bookmark");
+  var spanFace =crear("span","face icon-social-facebook-circular");
+  var spanTiw =crear("span"," tw enlace icon-twitter");
 
   divLeft.appendChild(spanLogoL);
   divLeft.appendChild(imgL);
@@ -72,7 +72,6 @@ window.addEventListener("load", function(){
   divBottonRight.appendChild(spanFavorite);
   footer.appendChild(divBottonLeft);
   footer.appendChild(divBottonRight);
-
   box.appendChild(header);
   box.appendChild(content);
   box.appendChild(footer);
